@@ -1,0 +1,27 @@
+
+.photos img{
+    width: 100%;
+    margin: 0;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+ }
+h1{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    color: darkcyan;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    
+}
+figcaption{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    color: darkcyan;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
